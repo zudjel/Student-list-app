@@ -1,0 +1,187 @@
+﻿
+namespace Vjezbe3
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.label1 = new System.Windows.Forms.Label();
+            this.tbIme = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.chlbSport = new System.Windows.Forms.CheckedListBox();
+            this.mtbTelefon = new System.Windows.Forms.MaskedTextBox();
+            this.lbSpisak = new System.Windows.Forms.ListBox();
+            this.SuspendLayout();
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(92, 76);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(139, 25);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Ime i prezime";
+            // 
+            // tbIme
+            // 
+            this.tbIme.Location = new System.Drawing.Point(237, 73);
+            this.tbIme.Name = "tbIme";
+            this.tbIme.Size = new System.Drawing.Size(259, 31);
+            this.tbIme.TabIndex = 1;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(92, 174);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(63, 25);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Sport";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(92, 399);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(84, 25);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Telefon";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(668, 68);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(115, 41);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "Upisi";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(668, 184);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(115, 40);
+            this.button2.TabIndex = 8;
+            this.button2.Text = "Odustani";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(668, 265);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(115, 68);
+            this.button3.TabIndex = 9;
+            this.button3.Text = "Ubaci u listu";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(668, 387);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(115, 48);
+            this.button4.TabIndex = 10;
+            this.button4.Text = "Prikazi";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // chlbSport
+            // 
+            this.chlbSport.CheckOnClick = true;
+            this.chlbSport.FormattingEnabled = true;
+            this.chlbSport.Items.AddRange(new object[] {
+            "Kosarka",
+            "Fudbal",
+            "Atletika",
+            "Odbojka"});
+            this.chlbSport.Location = new System.Drawing.Point(237, 174);
+            this.chlbSport.Name = "chlbSport";
+            this.chlbSport.Size = new System.Drawing.Size(239, 144);
+            this.chlbSport.TabIndex = 11;
+            // 
+            // mtbTelefon
+            // 
+            this.mtbTelefon.Location = new System.Drawing.Point(237, 396);
+            this.mtbTelefon.Mask = "(999) 000-0000";
+            this.mtbTelefon.Name = "mtbTelefon";
+            this.mtbTelefon.Size = new System.Drawing.Size(239, 31);
+            this.mtbTelefon.TabIndex = 12;
+            // 
+            // lbSpisak
+            // 
+            this.lbSpisak.FormattingEnabled = true;
+            this.lbSpisak.ItemHeight = 25;
+            this.lbSpisak.Location = new System.Drawing.Point(97, 489);
+            this.lbSpisak.Name = "lbSpisak";
+            this.lbSpisak.Size = new System.Drawing.Size(828, 179);
+            this.lbSpisak.TabIndex = 13;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1026, 721);
+            this.Controls.Add(this.lbSpisak);
+            this.Controls.Add(this.mtbTelefon);
+            this.Controls.Add(this.chlbSport);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.tbIme);
+            this.Controls.Add(this.label1);
+            this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox tbIme;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.CheckedListBox chlbSport;
+        private System.Windows.Forms.MaskedTextBox mtbTelefon;
+        private System.Windows.Forms.ListBox lbSpisak;
+    }
+}
+
